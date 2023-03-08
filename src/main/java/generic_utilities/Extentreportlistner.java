@@ -29,7 +29,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 		extentpath = EXTENTPATH+suite.getClass().getPackage()+randomName+" .html";
 		report = new Reportutility(extentpath, prop.readData(Enum_data.EXTENTREPORTTITLE), 
 				prop.readData(Enum_data.EXTENTREPORTNAME), prop.readData(Enum_data.BROWSER));
-		sreport=report;//
+		sreport=report;
 	}
 	/**
 	 *  this method is used to save the report
