@@ -32,7 +32,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 		sreport=report;
 	}
 	/**
-	 *  this method is used to save the report
+	 *  this method is used to save the report/
 	 */
 	@Override
 	public void onFinish(ISuite suite) {
