@@ -17,7 +17,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 	protected String extentpath;
 	public static  Reportutility sreport;//run time polymrphism,method overiding
 	@Override
-	public void onStart(ISuite suite) {//
+	public void onStart(ISuite suite) {
 		Property_util prop = new Property_util(FISPATH);	
 		String override = prop.readData(Enum_data.OVERRIDEREPORT);
 		String randomName=null;
