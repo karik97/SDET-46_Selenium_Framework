@@ -9,7 +9,7 @@ import BaseClassPractice.BaseClassPractice;
 public class flipTest extends BaseClassPractice{
 	@ExtentReport(author = "karti")
 	@Test(groups = {"regression","major"})
-	public void ts1()
+	public void ts()
 	{
 		System.out.println(Thread.currentThread().getId());
 		driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();

@@ -4,11 +4,12 @@ import org.openqa.selenium.By;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import Annotation.ExtentReport;
 import BaseClassPractice.BaseClassPractice;
 
 @Listeners(generic_utilities.Setparameter.class)
 public class flipTest1 extends BaseClassPractice{
-
+	@ExtentReport(author = "karti")
 	@Test(groups = {"sanity","minor"})
 	public void ts1()
 	{

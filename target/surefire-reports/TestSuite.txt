@@ -1,20 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.876 s <<< FAILURE! - in TestSuite
-sample.flipTest1.ts1  Time elapsed: 0.001 s  <<< FAILURE!
-java.lang.NullPointerException
-	at generic_utilities.Extentreportlistner.onTestStart(Extentreportlistner.java:64)
-	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:103)
-	at org.testng.internal.TestInvoker.runTestResultListener(TestInvoker.java:220)
-	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:572)
-	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
-	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 24.069 sec

@@ -7,8 +7,8 @@
   <include name="regression"/>
   </run></groups>
     <classes>
-      <class name="sample.crossbrowser2"/>
-       <class name="sample.crossbrowsertest"/>
+      <class name="sample.flipTest"/>
+       <class name="sample.flipTest1"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
