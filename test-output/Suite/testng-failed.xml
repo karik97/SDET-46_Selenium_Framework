@@ -1,27 +1,50 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="Profile.SM_BBTest">
+      <class name="BaseClassPractice.flipTest">
         <methods>
-          <include name="profileUpdatetest"/>
+          <include name="ts"/>
           <include name="testTeardown"/>
-          <include name="methodTeardown"/>
-          <include name="testSetup"/>
+          <include name="methodteardown"/>
+          <include name="classsetup"/>
           <include name="methodSetup"/>
-          <include name="profile_update_hometest"/>
         </methods>
-      </class> <!-- Profile.SM_BBTest -->
-      <class name="Home.SM_BBTest">
+      </class> <!-- BaseClassPractice.flipTest -->
+      <class name="BaseClassPractice.flipTest1">
         <methods>
           <include name="testTeardown"/>
-          <include name="methodTeardown"/>
-          <include name="testSetup"/>
+          <include name="ts1"/>
+          <include name="methodteardown"/>
+          <include name="classsetup"/>
           <include name="methodSetup"/>
-          <include name="upload_phototest"/>
         </methods>
-      </class> <!-- Home.SM_BBTest -->
+      </class> <!-- BaseClassPractice.flipTest1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="5" parallel="tests" name="Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="BaseClassPractice.flipTest">
+        <methods>
+          <include name="ts"/>
+          <include name="testTeardown"/>
+          <include name="methodteardown"/>
+          <include name="classsetup"/>
+          <include name="methodSetup"/>
+        </methods>
+      </class> <!-- BaseClassPractice.flipTest -->
+      <class name="BaseClassPractice.flipTest1">
+        <methods>
+          <include name="testTeardown"/>
+          <include name="ts1"/>
+          <include name="methodteardown"/>
+          <include name="classsetup"/>
+          <include name="methodSetup"/>
+        </methods>
+      </class> <!-- BaseClassPractice.flipTest1 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

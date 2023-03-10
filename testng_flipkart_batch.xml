@@ -6,8 +6,8 @@
 </listeners>
   <test  name="Test">
     <classes>
-      <class name="sample.flipTest"/>
-      <class name="sample.flipTest1"/>
+      <class name="BaseClassPractice.flipTest"/>
+      <class name="BaseClassPractice.flipTest1"/>
     </classes>
   </test> <!-- Test --><!--batch execution-->
 </suite> <!-- Suite -->

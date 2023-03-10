@@ -1,8 +1,9 @@
-sample\flipTest1.class
 Home\SM_BBTest.class
-sample\flipTest.class
 Profile\SM_BBTest.class
 sample\DataproviderarrayTest.class
 sample\Broken_linksTest.class
 Signup\SM_BB.class
+sample\sampleTest.class
 sample\ShadowElementTest.class
+Demo_Hybrid\pom.class
+Demo_Hybrid\dataprovider.class

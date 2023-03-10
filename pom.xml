@@ -45,7 +45,7 @@
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
-			<version>7.4.0</version>
+			<version>7.3.0</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
@@ -78,4 +78,24 @@
 		</plugins>
 	</build>
 	
+	<profiles>
+	<profile>
+	<id>group</id>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M9</version>
+				<configuration>
+					<suiteXmlFiles>
+						<suiteXmlFile>testng_flipkart_batch.xml</suiteXmlFile>
+						<suiteXmlFile>testng_demo_hybrid.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	</profile>
+	</profiles>
 </project>

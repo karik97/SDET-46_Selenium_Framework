@@ -35,7 +35,7 @@ public class BaseClassPractice implements Framework_data{
 	protected  SoftAssert soft;
 	
 	@ExtentReport(author = "karti")
-	@Parameters(value="browser")
+	@Parameters("browser")
 	@BeforeClass(alwaysRun = true)
 	public void classsetup(@Optional String browser)
 	{
@@ -49,16 +49,12 @@ public class BaseClassPractice implements Framework_data{
 		else
 		{
 			driver=web_util.openBrowser(browser);
-			//driver=web_util.openBrowser(System.getProperty("url"));//for maven execution 
+			//driver=web_util.openBrowser(System.getProperty("browser"));//for maven execution 
 		}
 
-
-		verify=new Verification_utills();
+       verify=new Verification_utills();
 		java_util=new Java_utils();
-
 		soft=new SoftAssert();
-
-
 	}
 
 	@BeforeMethod(alwaysRun = true)

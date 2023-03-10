@@ -1,20 +1,14 @@
 package BaseClassPractice;
 
 import org.openqa.selenium.By;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-import org.testng.internal.BaseClassFinder;
+import Annotation.ExtentReport;
 
-import BaseClassPractice.BaseClassPractice;
-
-
-@Listeners
 public class flipTest extends BaseClassPractice{
-
+	@ExtentReport(author = "karti")
 	@Test(groups = {"regression","major"})
-	public void ts1()
+	public void ts()
 	{
-		//
 		System.out.println(Thread.currentThread().getId());
 		driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
 		System.out.println("test case 1");

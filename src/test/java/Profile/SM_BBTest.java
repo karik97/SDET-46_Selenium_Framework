@@ -13,10 +13,8 @@ import generic_utilities.UtilityInstanaceTransefer;
  * @author Kartik
  *
  */
-
 public class SM_BBTest  extends Baseclass
 {
-	
 	private String un;
 	@ExtentReport(author = "kiran")
 	@Test(groups = {"sanity","minor"})
