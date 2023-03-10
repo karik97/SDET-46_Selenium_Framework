@@ -9,7 +9,7 @@ import Enum.Enum_data;
 import generic_utilities.Baseclass;
 import generic_utilities.UtilityInstanaceTransefer;
 /**
- * 
+ * abc
  * @author Kartik
  *
  */
@@ -18,7 +18,7 @@ public class SM_BBTest extends Baseclass
 	private String photodescitpion;
 	private String photopath;
 
-	
+	//djsfjklds
 	@ExtentReport(author = "karti")
 	@Test(groups = {"regression","major"})
 	public void upload_phototest() {

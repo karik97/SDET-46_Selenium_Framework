@@ -31,7 +31,7 @@ import generic_utilities.Javascript_utils;
 import generic_utilities.Webdriver_utility;
 
 
-public class sample {
+public class sampleTest {
 	static String txt;
 	public static void main(String[] args) throws EncryptedDocumentException, IOException, InterruptedException {
 
