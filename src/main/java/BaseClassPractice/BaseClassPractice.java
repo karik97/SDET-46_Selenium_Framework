@@ -54,6 +54,7 @@ public class BaseClassPractice implements Framework_data{
 
        verify=new Verification_utills();
 		java_util=new Java_utils();
+		
 		soft=new SoftAssert();
 	}
 
