@@ -1,21 +1,26 @@
 package Profile;
 import org.openqa.selenium.WebElement;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 import Annotation.ExtentReport;
 import Enum.Enum_data;
 import generic_utilities.Baseclass;
+import generic_utilities.Extentreportlistner;
 import generic_utilities.UtilityInstanaceTransefer;
 /**
  * 
  * @author Kartik
  *
  */
+
 public class SM_BBTest  extends Baseclass
 {
+	
 	private String un;
 	@ExtentReport(author = "kiran")
 	@Test(groups = {"sanity","minor"})
+	
 	public void profileUpdatetest() //profile update
 	{
         

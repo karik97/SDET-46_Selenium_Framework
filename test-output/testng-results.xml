@@ -1,204 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<testng-results ignored="1" total="3" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-03-10T13:28:17 IST" name="Suite" finished-at="2023-03-10T13:28:35 IST" duration-ms="17539">
+  <suite started-at="2023-03-10T15:47:29 IST" name="Suite" finished-at="2023-03-10T15:47:56 IST" duration-ms="27440">
     <groups>
-      <group name="minor">
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@2ed2d9cb]" name="ts1" class="sample.flipTest1"/>
-      </group> <!-- minor -->
       <group name="major">
-        <method signature="flipTest.ts()[pri:0, instance:sample.flipTest@741a8937]" name="ts" class="sample.flipTest"/>
+        <method signature="SM_BBTest.profile_update_hometest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" name="profile_update_hometest" class="Profile.SM_BBTest"/>
+        <method signature="SM_BBTest.upload_phototest()[pri:0, instance:Home.SM_BBTest@21e360a]" name="upload_phototest" class="Home.SM_BBTest"/>
       </group> <!-- major -->
+      <group name="minor">
+        <method signature="SM_BBTest.profileUpdatetest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" name="profileUpdatetest" class="Profile.SM_BBTest"/>
+      </group> <!-- minor -->
       <group name="regression">
-        <method signature="flipTest.ts()[pri:0, instance:sample.flipTest@741a8937]" name="ts" class="sample.flipTest"/>
+        <method signature="SM_BBTest.profile_update_hometest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" name="profile_update_hometest" class="Profile.SM_BBTest"/>
+        <method signature="SM_BBTest.upload_phototest()[pri:0, instance:Home.SM_BBTest@21e360a]" name="upload_phototest" class="Home.SM_BBTest"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@2ed2d9cb]" name="ts1" class="sample.flipTest1"/>
+        <method signature="SM_BBTest.profileUpdatetest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" name="profileUpdatetest" class="Profile.SM_BBTest"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2023-03-10T13:28:17 IST" name="Test" finished-at="2023-03-10T13:28:35 IST" duration-ms="17539">
-      <class name="sample.flipTest">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest@741a8937]" started-at="2023-03-10T13:28:17 IST" name="classsetup" finished-at="2023-03-10T13:28:21 IST" duration-ms="3709" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-=======
-<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
-  <reporter-output>
-  </reporter-output>
-  <suite started-at="2023-03-09T00:06:11 IST" name="Suite" finished-at="2023-03-09T00:06:33 IST" duration-ms="22329">
-    <groups>
-      <group name="minor">
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@446293d]" name="ts1" class="sample.flipTest1"/>
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@3bf9ce3e]" name="ts1" class="sample.flipTest1"/>
-      </group> <!-- minor -->
-      <group name="major">
-        <method signature="flipTest.ts1()[pri:0, instance:sample.flipTest@212b5695]" name="ts1" class="sample.flipTest"/>
-        <method signature="flipTest.ts1()[pri:0, instance:sample.flipTest@156b88f5]" name="ts1" class="sample.flipTest"/>
-      </group> <!-- major -->
-      <group name="regression">
-        <method signature="flipTest.ts1()[pri:0, instance:sample.flipTest@212b5695]" name="ts1" class="sample.flipTest"/>
-        <method signature="flipTest.ts1()[pri:0, instance:sample.flipTest@156b88f5]" name="ts1" class="sample.flipTest"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@446293d]" name="ts1" class="sample.flipTest1"/>
-        <method signature="flipTest1.ts1()[pri:0, instance:sample.flipTest1@3bf9ce3e]" name="ts1" class="sample.flipTest1"/>
-      </group> <!-- sanity -->
-    </groups>
-    <test started-at="2023-03-09T00:06:11 IST" name="Test" finished-at="2023-03-09T00:06:25 IST" duration-ms="13793">
-      <class name="sample.flipTest1">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest1@446293d]" started-at="2023-03-09T00:06:18 IST" name="classsetup" finished-at="2023-03-09T00:06:21 IST" duration-ms="2605" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
-            </param>
-          </params>
+    <test started-at="2023-03-10T15:47:29 IST" name="Test" finished-at="2023-03-10T15:47:56 IST" duration-ms="27440">
+      <class name="Profile.SM_BBTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:44 IST" name="testSetup" finished-at="2023-03-10T15:47:47 IST" duration-ms="3391" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- classsetup -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest@741a8937]" started-at="2023-03-10T13:28:21 IST" name="methodSetup" finished-at="2023-03-10T13:28:25 IST" duration-ms="4101" status="PASS">
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:47 IST" name="methodSetup" finished-at="2023-03-10T15:47:49 IST" duration-ms="1392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="ts()[pri:0, instance:sample.flipTest@741a8937]" started-at="2023-03-10T13:28:25 IST" name="ts" finished-at="2023-03-10T13:28:26 IST" duration-ms="479" status="PASS">
+        <test-method signature="profileUpdatetest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:49 IST" name="profileUpdatetest" finished-at="2023-03-10T15:47:49 IST" duration-ms="666" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ts -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest@741a8937]" started-at="2023-03-10T13:28:26 IST" name="methodteardown" finished-at="2023-03-10T13:28:26 IST" duration-ms="8" status="PASS">
+        </test-method> <!-- profileUpdatetest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:49 IST" name="methodTeardown" finished-at="2023-03-10T15:47:49 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodteardown -->
-        <test-method is-config="true" signature="testTeardown()[pri:0, instance:sample.flipTest@741a8937]" started-at="2023-03-10T13:28:33 IST" name="testTeardown" finished-at="2023-03-10T13:28:35 IST" duration-ms="1346" status="PASS">
-=======
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest1@446293d]" started-at="2023-03-09T00:06:21 IST" name="methodSetup" finished-at="2023-03-09T00:06:23 IST" duration-ms="2205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method signature="ts1()[pri:0, instance:sample.flipTest1@446293d]" started-at="2023-03-09T00:06:23 IST" name="ts1" finished-at="2023-03-09T00:06:24 IST" duration-ms="584" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts1 -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest1@446293d]" started-at="2023-03-09T00:06:24 IST" name="methodteardown" finished-at="2023-03-09T00:06:24 IST" duration-ms="13" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodteardown -->
-      </class> <!-- sample.flipTest1 -->
-      <class name="sample.flipTest">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest@212b5695]" started-at="2023-03-09T00:06:11 IST" name="classsetup" finished-at="2023-03-09T00:06:15 IST" duration-ms="4020" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classsetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest@212b5695]" started-at="2023-03-09T00:06:15 IST" name="methodSetup" finished-at="2023-03-09T00:06:18 IST" duration-ms="2788" status="PASS">
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:49 IST" name="methodSetup" finished-at="2023-03-10T15:47:50 IST" duration-ms="1003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="ts1()[pri:0, instance:sample.flipTest@212b5695]" started-at="2023-03-09T00:06:18 IST" name="ts1" finished-at="2023-03-09T00:06:18 IST" duration-ms="371" status="PASS">
+        <test-method signature="profile_update_hometest()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:50 IST" name="profile_update_hometest" finished-at="2023-03-10T15:47:51 IST" duration-ms="1213" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ts1 -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest@212b5695]" started-at="2023-03-09T00:06:18 IST" name="methodteardown" finished-at="2023-03-09T00:06:18 IST" duration-ms="7" status="PASS">
+        </test-method> <!-- profile_update_hometest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:51 IST" name="methodTeardown" finished-at="2023-03-10T15:47:51 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodteardown -->
-        <test-method is-config="true" signature="testTeardown()[pri:0, instance:sample.flipTest@212b5695]" started-at="2023-03-09T00:06:24 IST" name="testTeardown" finished-at="2023-03-09T00:06:25 IST" duration-ms="1168" status="PASS">
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="testTeardown()[pri:0, instance:Profile.SM_BBTest@bae7dc0]" started-at="2023-03-10T15:47:51 IST" name="testTeardown" finished-at="2023-03-10T15:47:56 IST" duration-ms="5016" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
-      </class> <!-- sample.flipTest -->
-<<<<<<< HEAD
-      <class name="sample.flipTest1">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest1@2ed2d9cb]" started-at="2023-03-10T13:28:26 IST" name="classsetup" finished-at="2023-03-10T13:28:29 IST" duration-ms="3116" status="PASS">
-          <params>
-            <param index="0">
-              <value is-null="true"/>
-=======
-    </test> <!-- Test -->
-    <test started-at="2023-03-09T00:06:25 IST" name="Test1" finished-at="2023-03-09T00:06:33 IST" duration-ms="8504">
-      <class name="sample.flipTest">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest@156b88f5]" started-at="2023-03-09T00:06:25 IST" name="classsetup" finished-at="2023-03-09T00:06:28 IST" duration-ms="2885" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
-            </param>
-          </params>
+      </class> <!-- Profile.SM_BBTest -->
+      <class name="Home.SM_BBTest">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:Home.SM_BBTest@21e360a]" started-at="2023-03-10T15:47:29 IST" name="testSetup" finished-at="2023-03-10T15:47:34 IST" duration-ms="4843" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- classsetup -->
-<<<<<<< HEAD
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest1@2ed2d9cb]" started-at="2023-03-10T13:28:29 IST" name="methodSetup" finished-at="2023-03-10T13:28:33 IST" duration-ms="4396" status="PASS">
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="methodSetup()[pri:0, instance:Home.SM_BBTest@21e360a]" started-at="2023-03-10T15:47:34 IST" name="methodSetup" finished-at="2023-03-10T15:47:36 IST" duration-ms="2190" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- methodSetup -->
-        <test-method signature="ts1()[pri:0, instance:sample.flipTest1@2ed2d9cb]" started-at="2023-03-10T13:28:33 IST" name="ts1" finished-at="2023-03-10T13:28:33 IST" duration-ms="317" status="PASS">
+        <test-method signature="upload_phototest()[pri:0, instance:Home.SM_BBTest@21e360a]" started-at="2023-03-10T15:47:36 IST" name="upload_phototest" finished-at="2023-03-10T15:47:39 IST" duration-ms="2665" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ts1 -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest1@2ed2d9cb]" started-at="2023-03-10T13:28:33 IST" name="methodteardown" finished-at="2023-03-10T13:28:33 IST" duration-ms="30" status="PASS">
-=======
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest@156b88f5]" started-at="2023-03-09T00:06:28 IST" name="methodSetup" finished-at="2023-03-09T00:06:30 IST" duration-ms="2453" status="PASS">
+        </test-method> <!-- upload_phototest -->
+        <test-method is-config="true" signature="methodTeardown()[pri:0, instance:Home.SM_BBTest@21e360a]" started-at="2023-03-10T15:47:39 IST" name="methodTeardown" finished-at="2023-03-10T15:47:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method signature="ts1()[pri:0, instance:sample.flipTest@156b88f5]" started-at="2023-03-09T00:06:30 IST" name="ts1" finished-at="2023-03-09T00:06:30 IST" duration-ms="114" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts1 -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest@156b88f5]" started-at="2023-03-09T00:06:30 IST" name="methodteardown" finished-at="2023-03-09T00:06:30 IST" duration-ms="70" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodteardown -->
-        <test-method is-config="true" signature="testTeardown()[pri:0, instance:sample.flipTest@156b88f5]" started-at="2023-03-09T00:06:33 IST" name="testTeardown" finished-at="2023-03-09T00:06:33 IST" duration-ms="251" status="PASS">
+        </test-method> <!-- methodTeardown -->
+        <test-method is-config="true" signature="testTeardown()[pri:0, instance:Home.SM_BBTest@21e360a]" started-at="2023-03-10T15:47:39 IST" name="testTeardown" finished-at="2023-03-10T15:47:44 IST" duration-ms="5005" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeardown -->
-      </class> <!-- sample.flipTest -->
-      <class name="sample.flipTest1">
-        <test-method is-config="true" signature="classsetup(java.lang.String)[pri:0, instance:sample.flipTest1@3bf9ce3e]" started-at="2023-03-09T00:06:30 IST" name="classsetup" finished-at="2023-03-09T00:06:31 IST" duration-ms="849" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classsetup -->
-        <test-method is-config="true" signature="methodSetup()[pri:0, instance:sample.flipTest1@3bf9ce3e]" started-at="2023-03-09T00:06:31 IST" name="methodSetup" finished-at="2023-03-09T00:06:33 IST" duration-ms="1674" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodSetup -->
-        <test-method signature="ts1()[pri:0, instance:sample.flipTest1@3bf9ce3e]" started-at="2023-03-09T00:06:33 IST" name="ts1" finished-at="2023-03-09T00:06:33 IST" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ts1 -->
-        <test-method is-config="true" signature="methodteardown()[pri:0, instance:sample.flipTest1@3bf9ce3e]" started-at="2023-03-09T00:06:33 IST" name="methodteardown" finished-at="2023-03-09T00:06:33 IST" duration-ms="107" status="PASS">
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodteardown -->
-      </class> <!-- sample.flipTest1 -->
-<<<<<<< HEAD
+      </class> <!-- Home.SM_BBTest -->
     </test> <!-- Test -->
-=======
-    </test> <!-- Test1 -->
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
   </suite> <!-- Suite -->
 </testng-results>

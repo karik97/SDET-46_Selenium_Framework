@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\generic_utilities\Extentreportlistner.java
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\generic_utilities\Select_utility.java
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\generic_utilities\Verification_utills.java
@@ -30,35 +29,3 @@ D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\Enum\F
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\generic_utilities\Webdriver_utility.java
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\SM_BB_POM\LoginPage.java
 D:\Selenium workspace TY\SDET workspace\Biobook_selenium_fw\src\main\java\Enum\Enum_data.java
-=======
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Property_util.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\UtilityInstanaceTransefer.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Setparameter.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\SM_BB_POM\SM_element.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Frame_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Javascript_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\Annotation\ExtentReport.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\BaseClassPractice\flipTest1.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\Enum\Fetchelementaddress.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Popup_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Action_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Reportutility.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\BaseClassPractice\BaseClassPractice.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\BaseClassPractice\flipTest.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\SM_BB_POM\LoginPage.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\Enum\Enum_data.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Verification_utills.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Webdriver_utility.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Baseclass.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Retryimplementation_listner.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\Enum\SME.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Excel_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Extentreportlistner.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\SM_BB_POM\HomePage.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\SM_BB_POM\ProfilePage.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Select_utility.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Java_utils.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Wait_utility.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\Framework_data.java
-C:\Users\Kartik\git\SDET-46_Selenium_Framework\src\main\java\generic_utilities\JDBC_utils.java
->>>>>>> 324bc9c0487cb95ba694599a72427f954fa94ef4
