@@ -17,6 +17,7 @@ public class flipTest1 extends BaseClassPractice{
 		driver.findElement(By.xpath("//button[@class='_2KpZ6l _2doB4z']")).click();
 		System.out.println("test case 2");
 		System.out.println("sanity");
+		System.out.println("mnjn");
 	}
 	
 }
