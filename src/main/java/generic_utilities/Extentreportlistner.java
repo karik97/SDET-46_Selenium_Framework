@@ -91,7 +91,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 		System.out.println("<b>"+result.getMethod().getMethodName()+"</b>"+" is failed");
 
 
-		report.attachScreenshot("base64",
+		report.attachScreenshot("alt",
 				BaseClassPractice.class.cast(result.getInstance()).web_util.genericScreenshot(),
 				result.getMethod().getMethodName(),UtilityInstanaceTransefer.getExtent());
 	}

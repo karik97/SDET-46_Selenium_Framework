@@ -28,7 +28,6 @@ public class Excel_utils {
 	 * @param fis_path
 	 */
 	FileInputStream fis;
-	Sheet sh;
 	public Excel_utils(String fis_path)
 	{
 		try {
@@ -56,10 +55,10 @@ public class Excel_utils {
 	/**
 	 * this method is used to fetch data from excel exact value
 	 */
-	static String value;
-	static String key;
 	public String ts(String sheet,String actkey,String v)
 	{
+		 String value = null;
+		 String key;
 		Sheet s = open.getSheet(sheet);
 		Map<String, String> map=new HashedMap<>();
 		List<String> lis=new ArrayList<>(); 
@@ -148,13 +147,13 @@ public class Excel_utils {
 		Sheet sh = open.getSheet(sheet);
 		Map<String, String> m=new LinkedHashMap<>();
 
-			for(int j=0; j<sh.getRow(0).getLastCellNum(); j++)
-			{
-				String key=df.formatCellValue(sh.getRow(0).getCell(j+1));
-				String value=df.formatCellValue(sh.getRow(0+1).getCell(j+1));
-				m.put(key, value);
-			}
-			
+		for(int j=0; j<sh.getRow(0).getLastCellNum(); j++)
+		{
+			String key=df.formatCellValue(sh.getRow(0).getCell(j+1));
+			String value=df.formatCellValue(sh.getRow(0+1).getCell(j+1));
+			m.put(key, value);
+		}
+
 		return m;
 	}
 	/**
@@ -195,8 +194,45 @@ public class Excel_utils {
 		return un;
 	}	
 
-	
-	
+	public Map<String, String> getData(String sheet,String exptc,String expk)
+	{
+		Map<String, String>  map =new LinkedHashMap<>();
+	    int tccount = 0;	int kcount = 0;   String value = null;
+		Sheet sh = open.getSheet(sheet);
+		for(int i=0; i<=sh.getLastRowNum(); i++)
+		{
+			
+			String acttc = df.formatCellValue(sh.getRow(i).getCell(0));
+			if(acttc.equalsIgnoreCase(exptc))
+			{
+				tccount++;
+				for(int j=0; j<sh.getRow(i).getLastCellNum(); j++)
+				{
+					String key = df.formatCellValue(sh.getRow(i).getCell(j));
+					if(key.equalsIgnoreCase(expk))
+					{
+						kcount++;
+					    value = df.formatCellValue(sh.getRow(i+1).getCell(j));
+					    map.put(key, value);
+					}break;
+				}
+			}break;
+		}
+		
+		if(kcount==0)
+		{
+			if(tccount==0)
+			{
+				System.out.println("please enter proper test case name "+exptc);
+			}
+			else
+			{
+				System.out.println("please enter proper key "+expk);
+			}
+		}
+		System.out.println("data fetched properly "+value);
+		return map;
+	}
 }
 
 

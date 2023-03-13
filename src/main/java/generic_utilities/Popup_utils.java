@@ -43,15 +43,6 @@ public class Popup_utils {
 	{
 		alt.sendKeys(data);
 	}
-	/**
-	 *this method is used to get the text from the popup
-	 * @param text
-	 * @return 
-	 */
-	public String getText()
-	{
-		return alt.getText();
-	}
 /**
  * this method is used to switch to one window to another window
  * @param driver

@@ -70,6 +70,7 @@ public class BaseClassPractice implements Framework_data{
 		web_util.navigateBack(driver);
 	}
 
+	
 	@AfterTest(alwaysRun = true)
 	public void testTeardown()
 	{

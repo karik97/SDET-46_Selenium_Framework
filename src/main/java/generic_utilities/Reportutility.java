@@ -24,12 +24,12 @@ public class Reportutility {
 	 */
 	public Reportutility(String filepath,String documentTitle,String reportName,String browserName)
 	{
-		
+
 		ExtentSparkReporter sparkextent = new ExtentSparkReporter(filepath);
 		sparkextent.config().setDocumentTitle(documentTitle);
 		sparkextent.config().setReportName(reportName);
 		sparkextent.config().setTheme(Theme.DARK);
-		
+
 		report = new ExtentReports();
 		report.attachReporter(sparkextent);
 		report.setSystemInfo("browser", browserName);
@@ -43,8 +43,6 @@ public class Reportutility {
 	{
 		ExtentTest	test=report.createTest(testName);
 		UtilityInstanaceTransefer.setExtent(test);
-		System.out.println(testName);
-		 
 	}
 	/**
 	 * this method is used for logg falied report
@@ -136,7 +134,7 @@ public class Reportutility {
 	 */
 	public void attachScreenshot(String statergy,String scrrenshotpath,String title,ExtentTest test)
 	{
-		if(statergy.equalsIgnoreCase("base64"))
+		if(statergy.equalsIgnoreCase("alt"))
 		{
 			test.addScreenCaptureFromBase64String(scrrenshotpath, title);
 		}
