@@ -61,7 +61,7 @@ public class BaseClassPractice implements Framework_data{
 	@BeforeMethod(alwaysRun = true)
 	public void methodSetup()
 	{
-		web_util.openApp("https://www.flipkart.com",driver);
+		web_util.openApp(System.getProperty("url"),driver);
 	}
 
 	@AfterMethod(alwaysRun = true)
