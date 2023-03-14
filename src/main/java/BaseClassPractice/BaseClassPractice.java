@@ -3,7 +3,6 @@ package BaseClassPractice;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
@@ -51,7 +50,6 @@ public class BaseClassPractice implements Framework_data{
 		{
 			//driver=web_util.openBrowser(browser);
 			driver=web_util.openBrowser(System.getProperty("browser"));//for maven execution 
-		System.out.println(		System.getProperty("browser"));
 		}
 
        verify=new Verification_utills();
@@ -63,7 +61,7 @@ public class BaseClassPractice implements Framework_data{
 	@BeforeMethod(alwaysRun = true)
 	public void methodSetup()
 	{
-		web_util.openApp(System.getProperty("url"));
+		web_util.openApp(System.getProperty("url"),driver);
 	}
 
 	@AfterMethod(alwaysRun = true)
@@ -81,3 +79,4 @@ public class BaseClassPractice implements Framework_data{
 		web_util.closeTab(driver);
 	}
 }
+ 

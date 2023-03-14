@@ -70,9 +70,9 @@ public class Webdriver_utility {
 	 * this method is use open the application by passing the url & driver
 	 * @param url
 	 */
-	public void openApp(String url)
+	public void openApp(String url,WebDriver Driver)
 	{
-		driver.get(url);
+		Driver.get(url);
 	}
 	/**
 	 * this method is use to close the single tab & we need to pass the driver
