@@ -90,7 +90,7 @@
 				<configuration>
 					<suiteXmlFiles>
 						<suiteXmlFile>testng_flipkart_batch.xml</suiteXmlFile>
-						<suiteXmlFile>testng_demo_hybrid.xml</suiteXmlFile>
+						<suiteXmlFile>testng_broken_links.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
