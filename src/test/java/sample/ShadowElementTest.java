@@ -12,7 +12,8 @@ public class ShadowElementTest {
 		WebDriver d = wu.openBrowser("chrome");
 		wu.openApp("chrome://downloads/", d);
 		JavascriptExecutor js=(JavascriptExecutor)d;
-		WebElement ele = (WebElement)js.executeScript("return document.querySelector('downloads-manager').shadowRoot.querySelector('#toolbar').shadowRoot.querySelector('#toolbar').shadowRoot.querySelector('#search')");
+		WebElement ele = (WebElement)js.executeScript("return document.querySelector('downloads-manager').shadowRoot.querySelector('#toolbar')"
+				+ ".shadowRoot.querySelector('#toolbar').shadowRoot.querySelector('#search')");
 		ele.sendKeys("kartik");
 		Thread.sleep(5000);
 		d.quit();

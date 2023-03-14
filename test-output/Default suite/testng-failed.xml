@@ -3,16 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Home.SM_BB">
+      <class name="BaseClassPractice.flipTest">
         <methods>
-          <include name="upload_photo"/>
+          <include name="ts"/>
           <include name="testTeardown"/>
-          <include name="methodTeardown"/>
-          <include name="delete_photo"/>
-          <include name="testSetup"/>
+          <include name="methodteardown"/>
+          <include name="classsetup"/>
           <include name="methodSetup"/>
         </methods>
-      </class> <!-- Home.SM_BB -->
+      </class> <!-- BaseClassPractice.flipTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
