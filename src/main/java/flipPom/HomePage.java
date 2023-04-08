@@ -7,7 +7,6 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
 public class HomePage {
-
 private WebDriver d;
 	
 	@FindBy(xpath ="//button[.='✕']")
@@ -32,6 +31,6 @@ private WebDriver d;
 	public SearchPage stf(String s) {
 		stf.sendKeys(s);
 		sbtn.click();
-		return new SearchPage(d);
+		return new SearchPage(d);//lazy pattern
 	}
 }
