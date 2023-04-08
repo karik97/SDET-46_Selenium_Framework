@@ -62,7 +62,7 @@ public class SearchPage {
 	
 	public PhonePage link() {
 		link.click();
-		return new PhonePage(d);
+		return new PhonePage(d);//lazy pattern
 	}
 	
 }
