@@ -1,6 +1,8 @@
 package generic_utilities;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
@@ -232,6 +234,38 @@ public class Excel_utils {
 		}
 		System.out.println("data fetched properly "+value);
 		return map;
+	}
+	
+	public void writeData(String s,String expk,String data,String fis_path) {
+		Sheet sh = open.getSheet(s);
+		FileOutputStream fout = null;
+		try {
+			fout=new FileOutputStream(fis_path);
+		} catch (FileNotFoundException e1) {
+			e1.printStackTrace();
+		}
+		for(int i=0; i<=sh.getLastRowNum(); i++)
+		 {
+			 for(int j=0; j<sh.getRow(i).getLastCellNum(); j++)
+			 {
+				 String key = df.formatCellValue(sh.getRow(i).getCell(j));
+				 if(key.equalsIgnoreCase(expk))
+				 {
+					 try {
+						sh.getRow(i).createCell(j).setCellValue(data);	
+					 }
+					 catch(Exception e) {
+						 sh.createRow(i).createCell(j).setCellValue(data);
+					 }
+				 }
+			 }
+		 }
+		try {
+			open.write(fout);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }
 

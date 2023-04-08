@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="BaseClassPractice.flipTest">
+      <class name="sample.flipTest">
         <methods>
-          <include name="ts"/>
           <include name="testTeardown"/>
+          <include name="ts"/>
           <include name="methodteardown"/>
           <include name="classsetup"/>
           <include name="methodSetup"/>
         </methods>
-      </class> <!-- BaseClassPractice.flipTest -->
+      </class> <!-- sample.flipTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

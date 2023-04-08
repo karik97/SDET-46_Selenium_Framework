@@ -10,9 +10,9 @@ import generic_utilities.Excel_utils;
 public class DataproviderarrayTest
 {
 	@Test(dataProvider = "dp")
-	public void test(Object s,Object k,Object a,Object v,Object c,Object b)
+	public void test(Object s,Object k,Object u)
 	{
-		System.out.println(s+" "+k+" "+a+""+v+""+c+" "+b);
+		System.out.println(s+" "+k+" "+u);
 	}
 	
 	@DataProvider
@@ -23,7 +23,7 @@ public class DataproviderarrayTest
 	}
 	
 	
-   // @DataProvider
+    @DataProvider
     public Object[][] dp1()
     {
     	Object [][] arr=new Object[2][2];

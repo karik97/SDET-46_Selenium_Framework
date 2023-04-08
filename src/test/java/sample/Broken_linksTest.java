@@ -28,8 +28,7 @@ public class Broken_linksTest {
 			arlis.add(link.getAttribute("href"));
 		}	
 		for(String url:arlis)
-		{
-			
+		{			
 			try {
 				URL lis=new URL(url);
 				HttpURLConnection urlconn = (HttpURLConnection)lis.openConnection();//to get the getResponseCode & getResponseMessage explicitly typecasting

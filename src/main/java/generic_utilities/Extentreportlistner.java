@@ -16,7 +16,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 	private Reportutility report;
 	protected String extentpath;
 	public static  Reportutility sreport;//run time polymrphism,method overiding
-	@Override
+    @Override
 	public void onStart(ISuite suite) {
 		Property_util prop = new Property_util(FISPATH);	
 		String override = prop.readData(Enum_data.OVERRIDEREPORT);
@@ -105,6 +105,7 @@ public class Extentreportlistner implements ITestListener ,ISuiteListener,Framew
 
 		report.attachScreenshot("alt",
 				BaseClassPractice.class.cast(result.getInstance()).web_util.genericScreenshot(),
+			
 				result.getMethod().getMethodName()+" skipped",UtilityInstanaceTransefer.getExtent());
 	}
 }
